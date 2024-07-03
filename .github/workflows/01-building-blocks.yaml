@@ -3,7 +3,7 @@ name: 01 - Building Blocks
 on: push 
 jobs: 
   echo-hello
-    runs-on: ubuntu-latest
+    runs:ubuntu-latest
      steps:
         - name: Say Hello 
           run: echo " Hello, World!"
