@@ -51,8 +51,8 @@ jobs:
     echo-undefined:
         runs-on: ubuntu-latest
         steps:
-            - name: Print Undefind Variables
-              run: | 
+          - name: Print Undefind Variables
+            run: | 
               echo "Org var: ${{ env.UNDEFIND_VAR_WITH_DEFAULT }}"
 
 
