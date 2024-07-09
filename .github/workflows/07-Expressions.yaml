@@ -21,7 +21,7 @@ jobs:
                 echo "Commit SHA: ${{ github.sha }}"
                 echo "Runner OS: ${{ runner.os }}"
             - name: '[debug] Print when triggered from main'
-              if: ${{ inputs.debug && github.ref == 'refs/heada/amin' }}
+              if: ${{ inputs.debug && github.ref == '.github/workflows/07-Expressions.yaml' }}
               run: echo " I was triggered from main"
             - name: Greeting
               run: echo "Hello, world"
